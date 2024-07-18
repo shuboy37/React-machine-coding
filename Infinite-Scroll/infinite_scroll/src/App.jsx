@@ -10,7 +10,7 @@ function App() {
     }
 
     async function fetchImage() {
-      const accessKey = `zPFdKCaSiw5vyBpka6VBvM6ffJrOP_9CsSjIW_JCGQ8`;
+      const accessKey = `zqPFdKCaSiw5vyBpka6VBvM6ffJrOP_9CSSjIW_JCGQ8`;
 
       setLoading(true);
 
