@@ -1,4 +1,5 @@
 import useImgInfo from "./contexts/ImgContext";
+import { useEffect } from "react";
 
 function App() {
   const { imgs, setImgs, loading, setLoading, page, setPage, query } =
@@ -54,7 +55,7 @@ function App() {
                 src={img.urls.small}
                 alt={img.alt_description}
                 width="400px"
-                className="rounded-lg shadow-lg"
+                className="rounded-lg shadow-lg m-7"
               />
             </li>
           ))}
